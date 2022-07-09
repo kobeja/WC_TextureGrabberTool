@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:ListView name="texture-list"/>
+    <engine:Box name="texture">
+        <engine:Toggle name="InBuild-Toggle"/>
+        <engine:Image name="preview"/>
+        <engine:ScrollView name="texture-info-scroll">
+            <engine:Box name="texture-info"/>
+        </engine:ScrollView>
+    </engine:Box>
+    
+</engine:UXML>
